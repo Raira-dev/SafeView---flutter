@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 360" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Câmera de segurança">
+<defs><radialGradient id="g1" cx=".3" cy=".25" r=".8"><stop offset="0" stop-color="#dfeccf"/><stop offset=".55" stop-color="#b8d3a0"/><stop offset="1" stop-color="#8fb98a"/></radialGradient>
+<linearGradient id="g2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#c9ced6"/></linearGradient>
+<radialGradient id="g3" cx=".4" cy=".4" r=".7"><stop offset="0" stop-color="#5a79b8"/><stop offset=".5" stop-color="#1c2a46"/><stop offset="1" stop-color="#0b111f"/></radialGradient></defs>
+<rect width="440" height="360" fill="url(#g1)"/>
+<circle cx="90" cy="70" r="70" fill="#f4f8e6" opacity=".6"/><circle cx="170" cy="250" r="90" fill="#7fae7c" opacity=".45"/><circle cx="40" cy="190" r="50" fill="#e6f0d6" opacity=".5"/>
+<path d="M440 300V200l-70 20v78z" fill="#d8dde6"/><rect x="392" y="185" width="48" height="140" rx="8" fill="#e9ecf2"/>
+<path d="M395 255l-95-34" stroke="#c4c9d2" stroke-width="30" stroke-linecap="round"/><path d="M395 247l-95-34" stroke="#f3f4f7" stroke-width="12" stroke-linecap="round"/>
+<g transform="rotate(14 250 130)"><rect x="150" y="62" width="205" height="82" rx="22" fill="url(#g2)"/><path d="M160 62h185a18 18 0 0 1 18 18v6H142v-6a18 18 0 0 1 18-18z" fill="#fff"/><rect x="142" y="84" width="221" height="6" rx="3" fill="#c9ced6" opacity=".7"/>
+<ellipse cx="150" cy="104" rx="34" ry="46" fill="#e1e5ec"/><ellipse cx="144" cy="104" rx="27" ry="38" fill="#8d95a3"/><ellipse cx="141" cy="104" rx="20" ry="30" fill="url(#g3)"/><ellipse cx="135" cy="92" rx="6" ry="9" fill="#fff" opacity=".7"/></g>
+</svg>

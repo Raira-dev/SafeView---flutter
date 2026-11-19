@@ -1,0 +1,16 @@
+{
+  "name": "safeview",
+  "version": "1.0.0",
+  "description": "SafeView - registro e acompanhamento de ocorrências (assaltos, acidentes e emergências de saúde). Global Solution 2026.2 - Application Development",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "seed": "node seed.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.22.3",
+    "mongodb": "^6.22.0"
+  }
+}

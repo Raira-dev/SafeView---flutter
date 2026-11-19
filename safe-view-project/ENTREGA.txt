@@ -1,0 +1,12 @@
+=== GLOBAL SOLUTION 2026.2 ===
+Disciplina: Cross-Platform Application Development
+Desafio: Territory Predictive Insights
+
+Integrante 1: [Nome Completo] | RM: [XXXXXX]
+Integrante 2: [Nome Completo] | RM: [XXXXXX]
+Integrante 3: [Nome Completo] | RM: [XXXXXX]
+
+GitHub: https://github.com/[usuario]/[repositorio]
+Vídeo: [link público do vídeo]
+
+Preencher os nomes, RMs e links reais antes do envio.

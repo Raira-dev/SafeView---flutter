@@ -1,0 +1,12 @@
+<main class="wrap pg">
+<h1>Ocorrências registradas</h1>
+{{alerta}}
+<form method="GET" action="/ocorrencias" class="filtros">
+<select name="tipo" aria-label="Tipo">{{f_tipo}}</select>
+<select name="prioridade" aria-label="Prioridade">{{f_prioridade}}</select>
+<select name="regiao" aria-label="Região">{{f_regiao}}</select>
+<button class="btn navy" type="submit">Filtrar</button><a class="btn lim" href="/ocorrencias">Limpar</a>
+</form>
+<p class="sub">{{resumo}}</p>
+<div class="card">{{tabela}}</div>
+</main>

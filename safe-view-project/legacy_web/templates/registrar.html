@@ -1,0 +1,17 @@
+<main class="wrap pg">
+<h1>Registrar ocorrência</h1>
+<p class="sub">Informe o que está acontecendo. O sistema encaminha para a unidade adequada (Polícia ou SAMU) e usa o registro nos indicadores.</p>
+{{alerta}}
+<form action="/ocorrencias/save" method="POST" class="form card" novalidate>
+<div class="g2">
+<div><label for="tipo">Tipo da ocorrência</label><select id="tipo" name="tipo" required>{{opts_tipo}}</select>{{e_tipo}}</div>
+<div><label for="prioridade">Prioridade</label><select id="prioridade" name="prioridade" required>{{opts_prioridade}}</select>{{e_prioridade}}</div>
+<div><label for="regiao">Região</label><select id="regiao" name="regiao" required>{{opts_regiao}}</select>{{e_regiao}}</div>
+<div><label for="camera">Câmera (opcional)</label><input id="camera" name="camera" maxlength="7" placeholder="CAM 02" value="{{v_camera}}">{{e_camera}}</div>
+</div>
+<label for="local">Local</label><input id="local" name="local" minlength="3" maxlength="100" placeholder="Ex.: Cruzamento Central" value="{{v_local}}" required>{{e_local}}
+<label for="descricao">Descrição</label><textarea id="descricao" name="descricao" rows="4" minlength="10" maxlength="500" placeholder="Descreva a situação com o máximo de detalhes úteis." required>{{v_descricao}}</textarea>
+<div class="cont"><span id="contador">0</span>/500</div>{{e_descricao}}
+<button class="btn red" type="submit">Enviar registro</button>
+</form>
+</main>
